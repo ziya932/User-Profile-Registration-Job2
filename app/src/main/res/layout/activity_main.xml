@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:padding="10dp"
+    android:background="@drawable/ziya"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -12,13 +13,14 @@
         android:id="@+id/welcomeTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="4dp"
         android:text="Welcome to User Profile App"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="#1BA1DD"
         android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -33,8 +35,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/welcomeTxt"
+        app:layout_constraintHorizontal_bias="0.561"
         app:layout_constraintStart_toStartOf="@+id/welcomeTxt"
         app:layout_constraintTop_toBottomOf="@+id/welcomeTxt"
+        app:layout_constraintVertical_bias="0.86"
         app:strokeColor="@color/black"
         app:strokeWidth="2dp" />
 

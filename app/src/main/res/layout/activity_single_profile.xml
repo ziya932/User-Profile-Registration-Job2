@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginBottom="16dp"
-            android:text="Rahima Akter"
+            android:text="Md Ziya Islam"
             android:textSize="16sp" />
 
         <TextView
@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginBottom="16dp"
-            android:text="Rahima@gmail.com"
+            android:text="ziya79325@gmail.com"
             android:textSize="16sp" />
 
         <TextView
@@ -70,7 +70,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginBottom="16dp"
-            android:text="10 september 1998"
+            android:text="13 november 2004"
             android:textSize="16sp" />
 
 
@@ -89,7 +89,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginBottom="16dp"
-            android:text="Tangail"
+            android:text="Sirajganj"
             android:textSize="16sp" />
 
         <TextView
@@ -107,7 +107,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginBottom="16dp"
-            android:text="0123456789"
+            android:text="01762809938"
             android:textSize="16sp" />
 
 
@@ -123,7 +123,8 @@
                 android:layout_height="50dp"
                 android:layout_weight=".5"
                 android:backgroundTint="@color/white"
-                android:src="@drawable/edit" />
+                android:src="@drawable/edit"
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <ImageButton
                 android:id="@+id/deleteBtn"
@@ -131,7 +132,8 @@
                 android:layout_height="50dp"
                 android:layout_weight=".5"
                 android:backgroundTint="@color/white"
-                android:src="@drawable/delete" />
+                android:src="@drawable/delete"
+                tools:ignore="SpeakableTextPresentCheck" />
 
 
         </LinearLayout>
